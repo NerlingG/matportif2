@@ -1,0 +1,51 @@
+.margem{
+
+    margin-left: 3%;
+    margin-right: 20%;
+    color: lavender;
+}
+.titulo{
+
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-top: 3%;
+    color: lavender;
+}
+.tituloescuro{
+
+    margin-left: 1%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+.subtitulo{
+
+    margin-left: 2%;
+    margin-right: 5%;
+
+}
+.div{
+
+    margin-right: 20% ;
+    margin-left: 3% ;
+}
+body {
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+.dav{
+    color: black;
+    background-color: rgb(128, 128, 128);
+}
+.content {
+    max-width: 800px;
+    width: 100%;
+    margin-right: 30%;
+    margin-top: 50px;
+    margin-left: 10%;
+    color: lavender;
+}
+ol{
+    color: lavender;
+}
