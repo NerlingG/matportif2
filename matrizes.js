@@ -3,16 +3,16 @@ var matriz1 = [];
 var matriz2 = [];
 var soma = [];
 
-alert("No próximow pop-ups, você deverá inserir o número de colunas \n"
+alert("No próxima janela você deverá inserir o número de colunas \n"
     + "e linhas de duas matrizes");
 
-var nrlinha = parseInt(prompt("Digite o número da linhas:"));
-var nrcol = parseInt(prompt("Digite o número da colunas:"));
-var nrlinha1 = parseInt(prompt("Digite o número da linhas:"));
-var nrcol1 = parseInt(prompt("Digite o número da colunas:"));
+var nrlinha = parseInt(prompt("Digite o número da linhas da primeira matriz:"));
+var nrcol = parseInt(prompt("Digite o número da colunas da primeira matriz:"));
+var nrlinha1 = parseInt(prompt("Digite o número da linhas da segunda matriz:"));
+var nrcol1 = parseInt(prompt("Digite o número da colunas da segunda matriz:"));
 
 
-if (nrcol != nrlinha1) {
+while (nrcol != nrlinha1) {
     nrlinha1 = parseInt(prompt("Digite novamente o segundo número das linhas:"));
 }
 
